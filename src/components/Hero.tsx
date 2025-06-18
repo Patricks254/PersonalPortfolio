@@ -90,7 +90,7 @@ const Hero = () => {
               <Github className="w-6 h-6 text-gray-400 group-hover:text-teal-400 transition-colors" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-gray-800/50 backdrop-blur-sm rounded-full border border-gray-700 hover:border-teal-400 hover:bg-teal-400/10 transition-all duration-300 group"
