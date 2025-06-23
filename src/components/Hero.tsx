@@ -30,8 +30,8 @@ const Hero = () => {
             <div className="w-61 h-64 rounded-full bg-gradient-to-r from-teal-400 to-cyan-400 p-1 animate-scale-in">
               <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
                  <img
-  src="/profileImage.jpg"
-  alt="Your Name"
+  src="/profileImage.jpeg"  
+  alt="Your Name bb"
   className="w-full h-full object-cover rounded-full"
 />
 
@@ -69,7 +69,7 @@ const Hero = () => {
             </div>
             
             <div className="text-base text-teal-400 font-medium">
-              📍 Nairobi, Kenya
+              📍 Virtual
             </div>
           </div>
 
@@ -81,22 +81,21 @@ const Hero = () => {
             >
               <Mail className="w-6 h-6 text-gray-400 group-hover:text-teal-400 transition-colors" />
             </a>
-            <a 
-              href="https://github.com" 
+            <a href="https://github.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-gray-800/50 backdrop-blur-sm rounded-full border border-gray-700 hover:border-teal-400 hover:bg-teal-400/10 transition-all duration-300 group"
             >
               <Github className="w-6 h-6 text-gray-400 group-hover:text-teal-400 transition-colors" />
             </a>
-            <a 
+            {/* <a 
               href="https://linkedin.com" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-3 bg-gray-800/50 backdrop-blur-sm rounded-full border border-gray-700 hover:border-teal-400 hover:bg-teal-400/10 transition-all duration-300 group"
             >
               <Linkedin className="w-6 h-6 text-gray-400 group-hover:text-teal-400 transition-colors" />
-            </a>
+            </a> */}
           </div>
 
           {/* CTA Button */}
